@@ -1,0 +1,66 @@
+
+/* Mobile */
+#card{
+    background-color: #DCDCDC;
+    padding: 3px 10px 3px 10px;
+    border-radius: 15px;
+    margin: 10px;
+    
+}
+
+#topCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.userInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userInfo img{
+    width: 40px;
+}
+
+.userInfo h4{
+    padding-left: 15px;
+}
+
+#icon{
+    width: 25px;
+}
+
+#comunity{
+    color: #8C8B8B;
+    padding: 0;
+    padding-left: 6px;
+    margin: 0;
+}
+
+#content{
+    color:#8C8B8B;
+    padding: 0;
+    padding-left: 6px;
+    margin: 0;
+}
+
+#info{
+    padding-left: 6px;
+}
+
+#readMore{
+    text-decoration: none;
+    color:black;
+}
+
+/* Outros dispositivos */
+@media (min-width: 992px) {
+    #card{
+        margin-top: 30px;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
